@@ -1,0 +1,11 @@
+Gowalla is a location-based social networking website where users share their locations by checking-in. The friendship network is undirected and was collected using their public API, and consists of 196,591 nodes and 950,327 edges. We have collected a total of 6,442,890 check-ins of these users over the period of Feb. 2009 - Oct. 2010.
+
+下载链接：http://snap.stanford.edu/data/loc-gowalla.html
+
+大致是2009-2010年用于社交网络分析的位置数据集，有用户名、时间、纬度、经度、位置id
+
+两个数据集：loc-gowalla_edges、loc-gowalla_totalCheckins,一般使用后面那个，大小385MB
+
+find.py 文件是筛选出Gowalla 中截取了中国北京区域的签到记录作为空间众包平台工作者的位置，经度从 39.433333 到 41.05，纬度从 115.416666 到 117.50，一共五千多个数据，330个用户
+
+data.txt是最终的实验数据集
